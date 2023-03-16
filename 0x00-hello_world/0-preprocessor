@@ -1,0 +1,2 @@
+#!/bin/bash
+input_file=$CFILE; output_file="c"; cpp $input_file -o $output_file
