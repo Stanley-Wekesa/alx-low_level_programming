@@ -14,7 +14,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 
 /* print the randomly generated number */
-printf("%d\n", n);
+printf("%d", n);
 
 /* check whether the number is positive, negative, or zero */
 if (n > 0)
