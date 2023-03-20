@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 
-/* main - function main 
+/**
+ * main - function main
  * Return: Zero
  */
 int main(void)
@@ -13,20 +14,23 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 
 /* print the randomly generated number */
-printf("The number is %d\n", n);
+printf("%d\n", n);
 
 /* check whether the number is positive, negative, or zero */
-if (n > 0) 
+if (n > 0)
 {
 printf("is positive\n");
-} else if (n < 0) 
+}
+else if (n < 0)
 {
 printf("is negative\n");
-} else 
+}
+else
 {
 printf("is zero\n");
 }
 
 return (0);
 }
+
 
