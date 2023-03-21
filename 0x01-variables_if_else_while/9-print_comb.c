@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible comb
- *
+ * main - Prints all possible combinations of digit
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -14,6 +13,7 @@ for (i = 0; i < 10; i++)
 for (j = i; j < 10; j++)
 {
 if (i != j)
+{
 putchar(i + '0');
 putchar(j + '0');
 
